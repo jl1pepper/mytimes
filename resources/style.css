@@ -9,6 +9,7 @@ div.header {
   justify-content: flex-start;
   justify-content: space-between;
   align-items: center;
+  border: solid black 1px;
 }
 
 .header img {
@@ -23,4 +24,12 @@ p.title {
 nav span {
   display: inline-block;
   margin: 10px;
+}
+
+h2 {
+  border: solid black 1px;
+}
+
+p {
+  border: solid black 1px;
 }
