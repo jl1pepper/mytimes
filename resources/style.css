@@ -1,3 +1,5 @@
+/*Header*/
+
 div.header {
   color: MediumAquamarine;
   height: 75px;
@@ -26,10 +28,59 @@ nav span {
   margin: 10px;
 }
 
-h2 {
+/*Body of page*/
+.content {
+  font-family: Georgia;
+  display: flex;
+  flex-direction: column wrap;
   border: solid black 1px;
 }
 
 p {
+  font-size: 17px;
+}
+
+.column.large {
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+}
+
+.column.medium {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.column.small {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tuna, .orca, .earthspin, .earlyburger, .cameras, .fbi, .cats {
   border: solid black 1px;
+}
+
+.tuna h2 {
+  background-image: url(./images/mainstory.png);
+  border: solid black 1px;
+}
+
+.earthspin h2 {
+  background-image: url(./images/fallseason.png);
+  border: solid black 1px;
+}
+
+.cameras h2 {
+  background-image: url(./images/hipstercameraman.png);
+  border: solid black 1px;
+}
+
+.cats h2 {
+  background-image: url(./images/catceo.png);
+}
+
+.cookie {
+  background-image: url(./images/cookie.png);
 }
