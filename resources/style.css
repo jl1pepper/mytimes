@@ -1,0 +1,26 @@
+div.header {
+  color: MediumAquamarine;
+  height: 75px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: solid black 1px;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  margin-left: 25px;
+  position: fixed;
+}
+
+p.title {
+  margin-left: 100px;
+}
+
+nav span {
+  display: inline-block;
+  margin: 10px;
+}
