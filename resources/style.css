@@ -11,12 +11,11 @@ div.header {
   justify-content: flex-start;
   justify-content: space-between;
   align-items: center;
-  border: solid black 1px;
 }
 
 .header img {
   margin-left: 25px;
-  position: fixed;
+  position: absolute;
 }
 
 p.title {
@@ -31,23 +30,36 @@ nav span {
 /*Body of page*/
 .content {
   font-family: Georgia;
+  margin-top: 40px;
+  margin-bottom: 75px;
+  min-width: 1300px;
   display: flex;
   flex-direction: column wrap;
-  border: solid black 1px;
+  justify-content: center;
 }
 
 p {
   font-size: 17px;
 }
 
+h2 {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
 .column.large {
   width: 630px;
+  position: relative;
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
+  align-content: space-between;
 }
 
 .column.medium {
   width: 300px;
+  margin: 0px 30px;
+  position: relative;
   display: flex;
   flex-direction: column;
 }
@@ -55,32 +67,70 @@ p {
 .column.small {
   width: 240px;
   display: flex;
+  position: relative;
   flex-direction: column;
+  border: solid purple 1px;
 }
 
-.tuna, .orca, .earthspin, .earlyburger, .cameras, .fbi, .cats {
+
+.tuna {
+  background-image: url(./images/mainstory.png);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: solid black 1px;
 }
 
 .tuna h2 {
-  background-image: url(./images/mainstory.png);
-  border: solid black 1px;
+  font-size: 40px;
+}
+
+.orca {
+  width: 300px;
+}
+
+.earlyburger {
+  width: 300px;
 }
 
 .earthspin h2 {
   background-image: url(./images/fallseason.png);
+  font-weight: bold;
+  width: 300px;
+  display: flex;
   border: solid black 1px;
 }
 
 .cameras h2 {
   background-image: url(./images/hipstercameraman.png);
+  font-weight: bold;
+  width: 300px;
+  display: flex;
   border: solid black 1px;
+}
+
+.fbi  h2 {
+  color: black;
+}
+
+.orca h2 {
+  color: black;
+}
+
+.earlyburger h2 {
+  color: black;
 }
 
 .cats h2 {
   background-image: url(./images/catceo.png);
+  font-weight: bold;
+  display: flex;
 }
 
 .newsbites {
   background-image: url(./images/cookie.png);
+  height: 240px;
+  font-weight: bold;
+  display: flex;
 }
