@@ -125,8 +125,15 @@ h2 {
   border: solid black 1px;
 }
 
+.fbi {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
 .fbi  h2 {
   color: black;
+  margin-top: 0px;
 }
 
 .orca h2 {
@@ -140,12 +147,73 @@ h2 {
 .cats h2 {
   background-image: url(./images/catceo.png);
   font-weight: bold;
+  height: 300px;
   display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .newsbites {
   background-image: url(./images/cookie.png);
   height: 240px;
-  font-weight: bold;
   display: flex;
+  flex-direction: column;
+
+}
+
+.newsbites h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 240px;
+  text-align: center;
+}
+
+.newsbites p {
+  font-size: 12px;
+  background-color: Whitesmoke;
+  font-family: Verdana;
+  color: Dimgray;
+  word-wrap: normal;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+  margin: 0px 0px;
+  Padding: 15px 0px 15px 25px;
+}
+
+/*Footer*/
+
+.footer {
+  background-color: MediumAquaMarine;
+  margin: auto;
+  width: 100%;
+  height: 325px;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footertitle {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: solid white 2px;
+  padding-right: 25px;
+  margin: auto;
+}
+
+.footernav {
+  display: flex;
+}
+
+.footernav span {
+  display: inline-block;
+}
+
+.footer p {
+  font-size: 12px;
+  font-family: Verdana;
 }
