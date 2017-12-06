@@ -34,7 +34,7 @@ nav span {
   margin-bottom: 75px;
   min-width: 1300px;
   display: flex;
-  flex-direction: column wrap;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -52,7 +52,7 @@ h2 {
   width: 630px;
   position: relative;
   display: flex;
-  flex-flow: column wrap;
+  flex-wrap: wrap;
   align-content: space-between;
 }
 
@@ -69,7 +69,6 @@ h2 {
   display: flex;
   position: relative;
   flex-direction: column;
-  border: solid purple 1px;
 }
 
 
@@ -86,6 +85,24 @@ h2 {
   font-size: 40px;
 }
 
+.otherstories {
+  width: 630px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftcolumn {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.rightcolumn {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
 .orca {
   width: 300px;
 }
@@ -98,7 +115,6 @@ h2 {
   background-image: url(./images/fallseason.png);
   font-weight: bold;
   width: 300px;
-  display: flex;
   border: solid black 1px;
 }
 
@@ -106,7 +122,6 @@ h2 {
   background-image: url(./images/hipstercameraman.png);
   font-weight: bold;
   width: 300px;
-  display: flex;
   border: solid black 1px;
 }
 
